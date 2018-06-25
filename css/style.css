@@ -1,0 +1,212 @@
+body{
+background-image: url(../img/bg1.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.signup{
+width:360px;
+padding:10% 0 0;
+margin: auto;
+}
+.form{
+position:relative;
+z-index:1;
+background:rgba(123, 195, 7, 0.8);
+max-width:360px;
+margin:0 auto 100px;
+padding:45px;
+text-align: center;
+}
+.form input{
+font-family: "Roboto", sans-serif;
+outline: 1;
+background: #f2f2f2;
+width:100%;
+border: 0;
+margin: 0 0 15px;
+padding:15px;
+box-sizing: border-box;
+font-size: 14px;
+}
+.form button{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    cursor:pointer;
+    font-size: 14px;
+}
+.form button:hover,.form button:active{
+    background: #43A047;
+}
+.form .message{
+    margin:15px 0 0;
+    font-size: 15px;
+}
+.form .message a{
+    color: rgb(94, 76, 175);
+    text-decoration: none;
+}
+.form .registration {
+    display:none;
+}
+.sample{
+    position:relative;
+    z-index:1;
+    background:rgba(154, 195, 7, 0.8);
+    max-width:360px;
+    margin:0 auto 20px;
+    padding:25px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    height: 25px;
+    color: darkslategrey;
+}
+    .main-nav{
+        float: right;
+        list-style: none;
+        margin-top: 30px;
+}
+    .main-nav li{
+        display: inline-block; 
+}
+li ul {
+    display: none;
+}
+li:hover li {
+    float: none;
+    width: 300px;
+}
+li:hover a {
+    border: 1px solid white;
+}
+li:hover li a:hover {
+    background: #000;
+}
+ul {list-style: none;
+    padding:0px;
+    margin: 0px;
+}
+li ul {
+    display: none;
+}
+ul li a {
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+ul li a:hover {  
+    border: 1px solid white;
+}
+li:hover ul {
+    display: block; 
+    position: absolute;
+}
+li:hover li {
+    float: none;
+}
+li:hover a {  
+    border: 1px solid white;
+}
+li:hover li a:hover {  
+    border: 1px solid white;
+    background: #000;
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo img{
+width:300px;
+height: 100px;
+float: left;
+}
+.form-radio-switcher input {
+position: absolute;
+left: -999em;
+}
+.form-radio-switcher input:checked + label {
+color: #fff;
+font-weight: 600;
+background: #1b95db;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+.form-radio-switcher label {
+float: left;
+height: 20px;
+margin: 0;
+padding: 5px 13px 3px;
+cursor: pointer;
+border-radius: 4px;
+color: khaki;
+font-size: 18px;
+font-weight: 500;
+letter-spacing: 0;               
+}
+.form-radio-switcher label.checked {
+color: #fff;
+font-weight: 600;
+background: #1b95db;
+}
+
+.seats{
+margin-left: 0px;
+text-align: left;
+font-family: sans-serif;
+font-size: 15px;
+color: seashell;
+}
+.space{
+    height: 30px;
+}
+.find{
+    margin:0 auto 100px;
+    padding:45px;
+    text-align: center;
+ 
+}
+.find input{ 
+        font-family: "Roboto", sans-serif;
+        background: #f2f2f2;
+        width:40%;
+        border: 0;
+        margin: 0 0 10px;
+        padding:15px;
+        box-sizing: border-box;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+}
+.joinride{
+    width:800px;
+    padding:15% 0 0;
+    margin: auto;
+}
+.ha{
+    margin-left: 22px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: seashell;
+    font-weight: bold;
+}
+.find button{
+    font-family:sans-serif;
+    text-transform: uppercase;
+    background: aqua;
+    width:10%;
+    border: 0;
+    padding: 15px;
+    cursor:pointer;
+    font-size: 14px;
+    
+}

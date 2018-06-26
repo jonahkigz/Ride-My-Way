@@ -83,9 +83,6 @@ li:hover li {
     float: none;
     width: 300px;
 }
-li:hover li a:hover {
-    background: #000;
-}
 ul {list-style: none;
     padding:0px;
     margin: 0px;
@@ -98,23 +95,6 @@ ul li a {
     padding: 5px 20px;
     text-decoration: none;
     color: #fff;
-}
-ul li a:hover {  
-    border: 1px solid white;
-}
-li:hover ul {
-    display: block; 
-    position: absolute;
-}
-li:hover li {
-    float: none;
-}
-li:hover a {  
-    border: 1px solid white;
-}
-li:hover li a:hover {  
-    border: 1px solid white;
-    background: #000;
 }
 .row{
     max-width: 1200px;

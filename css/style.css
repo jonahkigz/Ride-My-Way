@@ -96,6 +96,10 @@ ul li a {
     text-decoration: none;
     color: #fff;
 }
+ul li a:hover {  
+    background: #000;
+    color:#1b95db;
+}
 .row{
     max-width: 1200px;
     margin: auto;

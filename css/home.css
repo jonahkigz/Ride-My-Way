@@ -17,13 +17,6 @@ body{
 .main-nav li{
     display: inline-block; 
 }
-li:hover li {
-    float: none;
-    width: 300px;
-}
-li:hover li a:hover {
-    background: #000;
-}
 ul {
     list-style: none;
     padding:0px;
@@ -42,9 +35,6 @@ ul li a {
     text-decoration: none;
     padding: 5px 20px;
     font-size: 15px;
-}
-li:hover li {
-    float: none;
 }
 ul li a:hover {  
     background: #000;
